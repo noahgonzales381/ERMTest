@@ -439,7 +439,7 @@ if environment == "PRODUCTION":
     logging.info("Using production token...")
 elif environment == "DEVELOPMENT":
     try:
-        bot_token = config("DEVELOPMENT_BOT_TOKEN")
+        bot_token = config("MTIzNTczNDA0MTk3NDgwMDM4NQ.Gjiy8U.NvQsmSesG3G2zNLPWJ5KcKyngSRFdPEG0hoYzo")
     except decouple.UndefinedValueError:
         bot_token = ""
     logging.info("Using development token...")
